@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Week 7 · Pure Mathematics and Linear Algebra</title>
+<style>
+:root{--ink:#17202a;--muted:#5a6570;--blue:#1d4ed8;--paper:#fff;--wash:#f4f7fb;--line:#d9e1ea}
+*{box-sizing:border-box}body{margin:0;background:var(--wash);color:var(--ink);font:16px/1.55 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}main{max-width:980px;margin:auto;padding:28px 18px 60px}header,.card{background:var(--paper);border:1px solid var(--line);border-radius:18px;padding:26px;box-shadow:0 8px 25px #17202a0d}header{margin-bottom:18px}h1{font-size:clamp(1.8rem,4vw,3rem);line-height:1.1;margin:.1rem 0 .6rem}h2{margin-top:0;font-size:1.55rem}h3{font-size:1.08rem;color:var(--blue);margin-bottom:.35rem}.meta{color:var(--muted)}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(290px,1fr));gap:18px}.card{margin-bottom:18px}li{margin:.45rem 0}.formula{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;background:#eef3ff;border-radius:8px;padding:.1rem .35rem;white-space:nowrap}.links{display:flex;flex-wrap:wrap;gap:10px;margin-top:18px}.button{display:inline-block;padding:.65rem .9rem;border-radius:10px;background:var(--blue);color:white;text-decoration:none;font-weight:650}.button.secondary{background:#e9eef8;color:#173a8d}@media print{body{background:#fff}main{max-width:none;padding:0}.card,header{box-shadow:none;break-inside:avoid;border-radius:0}.links{display:none}}
+</style>
+</head>
+<body><main>
+<header>
+<p class="meta">Group 07 · 5–6 November 2026</p>
+<h1>Pure Mathematics + Linear Algebra</h1>
+<p class="meta">A mobile-friendly tutorial guide with discussion questions and key points. Check Blackboard for the official problem-sheet wording.</p>
+<div class="links"><a class="button" href="print/2026-11-05-06_questions_key_points.pdf">Download printable A4 PDF</a><a class="button secondary" href="print/2026-11-05-06_questions_key_points.md">Open printable Markdown</a></div>
+</header>
+<section class="grid">
+<article class="card"><h2>Introduction to Pure Mathematics</h2><p class="meta"><strong>Thu 5 Nov · 09:00–10:00</strong><br>PRIORY RD CMPLX F BLK 3F11</p><h3>Key points</h3><ul><li>Image and pre-image are subsets of different spaces, so always name the domain and codomain.</li><li>Injective means equal outputs force equal inputs. Surjective means every codomain element is hit. Bijective means both.</li><li>Use definitions for abstract proofs and verify every counterexample.</li></ul><h3>Questions</h3><ol><li>Classify <span class="formula">2x−3</span>, <span class="formula">x²</span> with codomain ℝ, and <span class="formula">x²</span> with codomain [0,∞).</li><li>For <span class="formula">p(x)=x²−1</span>, find the image of [−1,2] and the pre-image of [0,3].</li><li>Prove that a composition of injective maps is injective, then give a surjective non-injective example.</li><li>Use two PS5 peer submissions to identify one clear step and one step needing a stronger definition or justification.</li></ol></article>
+<article class="card"><h2>Linear Algebra</h2><p class="meta"><strong>Fri 6 Nov · 09:00–10:00</strong><br>FRY BLDG G.14</p><h3>Key points</h3><ul><li>Span, linear independence, basis, and dimension are linked: a basis is independent and spanning.</li><li>For subspaces, <span class="formula">dim(X+Y)=dim X+dim Y−dim(X∩Y)</span>.</li><li>Row reduction reveals pivots, rank, free variables, and the null space.</li><li>Rank–nullity: <span class="formula">dim ker T + dim im T = dim(domain)</span>.</li></ul><h3>Questions</h3><ol><li>Show that <span class="formula">{(x,y,z,x+iy)} ⊂ ℂ⁴</span> is a subspace. Find a basis and its dimension.</li><li>Test whether <span class="formula">dim(X+Y)=m+k</span> always holds, then state the correct formula and give examples.</li><li>Test the independence of <span class="formula">(1,2,−1),(1,1,1),(0,1,−2)</span>.</li><li>Find the null space and rank of <span class="formula">[[1,2,1],[2,4,2],[1,1,0]]</span>.</li><li>For <span class="formula">T(x,y,z)=(x+y,y+z)</span>, find kernel, image, rank, and nullity.</li></ol></article>
+</section>
+<section class="card"><h2>Quick self-check</h2><ul><li>Have I written the domain and codomain for every function?</li><li>Can I explain image versus pre-image?</li><li>Can I show both spanning and independence for a basis?</li><li>Can I read pivots and free variables after row reduction?</li><li>Can I check the rank–nullity equation?</li></ul></section>
+</main></body></html>
